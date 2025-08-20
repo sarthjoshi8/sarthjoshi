@@ -18,11 +18,11 @@ const About = () => {
             <div className="text-center md:text-left">
               <div className="relative inline-block">
                 <div className="w-80 h-80 rounded-2xl overflow-hidden mx-auto md:mx-0 shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-105">
-                  <img 
-                    src={profileImage} 
-                    alt="Sarth Hemant Joshi" 
-                    className="w-full h-full object-cover"
-                  />
+                   <img 
+                     src="/lovable-uploads/23d2dd0a-cabb-423d-a49d-2f9a4ccbdd70.png" 
+                     alt="Sarth Hemant Joshi" 
+                     className="w-full h-full object-cover"
+                   />
                 </div>
                 <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-gradient-to-r from-primary to-secondary rounded-full flex items-center justify-center shadow-lg animate-float">
                   <GraduationCap className="w-12 h-12 text-white" />

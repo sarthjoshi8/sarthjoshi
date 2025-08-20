@@ -56,20 +56,6 @@ const Hero = () => {
             </Button>
           </div>
 
-          <div className="mt-12 animate-fade-in" style={{ animationDelay: '0.5s' }}>
-            <p className="text-sm text-muted-foreground mb-4">Currently at</p>
-            <div className="flex justify-center items-center space-x-8">
-              <div className="text-center">
-                <h3 className="font-semibold text-primary">VIT Vellore</h3>
-                <p className="text-sm text-muted-foreground">CSE 2023-2027</p>
-              </div>
-              <div className="w-px h-12 bg-border" />
-              <div className="text-center">
-                <h3 className="font-semibold text-secondary">E-Cell VIT</h3>
-                <p className="text-sm text-muted-foreground">Senior Core Member</p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
 
