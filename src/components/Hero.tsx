@@ -10,15 +10,15 @@ const Hero = () => {
         <img 
           src={heroImage} 
           alt="Hero Background" 
-          className="w-full h-full object-cover opacity-20"
+          className="w-full h-full object-cover opacity-30"
         />
-        <div className="absolute inset-0 hero-gradient opacity-80" />
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/40 via-background/60 to-secondary/40" />
       </div>
 
       {/* Floating Elements */}
-      <div className="absolute top-20 left-10 w-20 h-20 bg-primary/10 rounded-full animate-float" />
-      <div className="absolute bottom-32 right-16 w-16 h-16 bg-secondary/15 rounded-full animate-float" style={{ animationDelay: '2s' }} />
-      <div className="absolute top-1/2 left-20 w-12 h-12 bg-primary/20 rounded-full animate-float" style={{ animationDelay: '4s' }} />
+      <div className="absolute top-20 left-10 w-20 h-20 bg-gradient-to-r from-primary/20 to-secondary/20 rounded-full animate-float glow-primary" />
+      <div className="absolute bottom-32 right-16 w-16 h-16 bg-gradient-to-r from-secondary/25 to-primary/25 rounded-full animate-float glow-secondary" style={{ animationDelay: '2s' }} />
+      <div className="absolute top-1/2 left-20 w-12 h-12 bg-gradient-to-r from-primary/30 to-secondary/30 rounded-full animate-float" style={{ animationDelay: '4s' }} />
 
       {/* Main Content */}
       <div className="relative z-10 container mx-auto px-6 text-center">
